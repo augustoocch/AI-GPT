@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+  display: flex;
+  color: white;
+  position: absolute;
+  background-color: #363b51;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #363b51;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*---------------------ASIDE----------------------------------------*/
+
+.menu {
+  width: 20%;
+  padding: 10px;
+  background-color: #3F48CC;
+  position: fixed;
+  height: 100%;
+  z-index: 150;
+}
+
+
+#comnUser {
+  width: 41px;
+  height: 41px;
+}
+
+.side-menu-button {
+  padding: 12px;
+  border: solid 1px;
+  border-radius: 5px;
+  text-align: left;
+  transition: 0.25s;
+  margin-top: 1em;
+}
+
+.side-menu-button:hover {
+  background-color: #5057be;
+}
+
+
+.aiLogo {
+  width: 100%;
+}
+
+.side-menu-button span {
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+
+.modelIA{
+  margin-top: 2em;
+}
+
+#type-of-model{
+  width: 90%;
+  border-radius: 5px;
+  background-color: #5b76ec;
+  margin-top: 0.5em;
+}
+
+.ui-slider-range {
+  background:rgb(198, 13, 13);
+}
+.percent {
+ color:rgb(86, 150, 86);
+ font-weight:bold;
+ text-align:center;
+ width:100%;
+ border:none;
+}
+
+/*---------------------FOOTER----------------------------------------*/
+
+.container-footer {
+  width: 100%;
+  position: absolute;
+  display:flex;
+  flex-direction: row;
+  height: 4em;
+}
+
+.aside-continum{
+  width: 20%;
+  height: 100%;
+  padding: 24px;
+  position: absolute;
+  background-color: #1433bc;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.chat-input-holder {
+  padding: 24px;
+  width: 80%;
+  position: fixed;
+  background-color: #363b51;
+  right: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.chat-input-text-area {
+  font-size: 1.25em;
+  color: white;
+  background: #5c6487;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0,0,0, 0.25);
+}
+
+/*--------------------- CHAT BOX----------------------------------------*/
+
+.chatbox {
+  flex: 1;
+  position: relative;
+}
+
+.chat-log {
+ text-align: left;
+ background-color: #363b51;
+ overflow-y: auto;
+ overflow-x: hidden;
+}
+
+.chat-message-center {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.message {
+  padding-left: 24px;
+}
+
+.chat-message.chatgpt {
+  background: #444654;
+}
+
+.avatar {
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.avatar .chatgpt {
+  background-color: green;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+
