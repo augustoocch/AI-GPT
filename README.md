@@ -64,9 +64,10 @@ To do this, open your command line and follow the steps:
 
 Set your OPENAI_API_KEY environment variable by adding the following line into your shell initialization script (e.g. .bashrc, zshrc, etc.) or running it in the command line before the fine-tuning command:
 
-3 -> export OPENAI_API_KEY="<OPENAI_API_KEY>"
+3 -> `export OPENAI_API_KEY="<OPENAI_API_KEY>"`
 
-4 -> Prepare your trainign data. Use the file I gave you as example in /client/training/
+4 -> Prepare your trainign data. Use the file I gave you as example in /client/training/. Minimum 200 prompts to
+be efficient
 
 5 -> Prepare data. The openAI preparation tool, gives suggestions and reformats your data:
 `openai tools fine_tunes.prepare_data -f <path/to/the/training/file>`
