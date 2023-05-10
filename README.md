@@ -4,7 +4,7 @@ Build your own gpt chat, based on the openAI API.
 # First steps
 
 In order to apply properly the current code, you MUST register in openAI
-and then, get a apiKey and organization name.
+and then, get an apiKey and organization name.
 
 After that, when you have your apikey and org. you must edit /AI-GPT/index.js, in the following section:
 
